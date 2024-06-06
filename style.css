@@ -1,0 +1,93 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    /* background-color: aqua; */
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    padding-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    align-items: center;
+
+
+}
+.right ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 20px;
+
+}
+.right ul li{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 30px;
+    font-size: 20px;
+    align-items: center;
+    
+
+}
+.right ul li a{
+    color: black;
+    text-decoration: none;
+
+}
+.right ul li a:hover{
+    color: rgb(150, 116, 116);
+    font-size:25px ;
+    /* transition-delay: 1s; */
+    text-decoration: underline;
+    margin-top: 15px;
+    text-underline-offset: 10px;
+}
+
+/* Profile section */
+.Profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 190px;
+    
+}
+.Picture{
+    display: flex;
+    margin-left: -80px;
+    justify-content: space-between;
+}
+.Profile img{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    border-radius: 60px;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+}
+.Name{
+    align-self: center;
+    text-align: center;
+    margin-left: 80px;
+}
+.Name p{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.Name h1{
+    font-size: 40px;
+    margin-bottom: 8px;
+}
+.Name h5{
+    font-size: 20px;
+    text-decoration: none;
+}
